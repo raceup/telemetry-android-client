@@ -1,5 +1,7 @@
-package telemetry.ed.raceup.org.vsm;
+package telemetry.ed.raceup.org.vsm.activity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -9,12 +11,19 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+
+import telemetry.ed.raceup.org.vsm.R;
+import telemetry.ed.raceup.org.vsm.dialog.AboutDialog;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,18 +89,40 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
+        if (id == R.id.nav_real_time) {
+            Intent openActivity = new Intent(MainActivity.this, RealTimeTelemetryActivity.class);
+            startActivity(openActivity);
+        } else if (id == R.id.nav_cached) {
+            //
         } else if (id == R.id.nav_manage) {
-
+            Intent openActivity = new Intent(MainActivity.this, SettingsActivity.class);
+            startActivity(openActivity);
         } else if (id == R.id.nav_share) {
+            //
+        } else if (id == R.id.nav_about) {
+            LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View aboutDialogView = inflater.inflate(R.layout.about_dialog, null);
+            TextView infoText = (TextView) aboutDialogView.findViewById(R.id.info_text_about_dialog);
+            infoText.setText(
+                    Html.fromHtml(
+                            "<h3>" +
+                                    "VSM: Vehicle System Monitor" +
+                                    "</h3>\n" +
+                                    "<i>Telemetry client of Race UP Origin-E car</i><br>\n" +
+                                    "Version 0.1<br>\n" +
+                                    "Copyright (C) 2017<br>\n" +
+                                    "<b>Race UP Electric Division</b><br><br>\n" +
+                                    "info@raceup.it"
+                    )
+            );
 
-        } else if (id == R.id.nav_send) {
-
+            // set legal text
+            TextView legalText = (TextView) aboutDialogView.findViewById(R.id.legal_text_about_dialog);
+            legalText.setText(Html.fromHtml(
+                    "Copyright (C) Race UP Electric Division 2017. <b>All rights reserved.</b>\n" +
+                            "Unauthorized copying of this file, via any medium is strictly prohibited."));
+            AboutDialog dialog = new AboutDialog(MainActivity.this, "", aboutDialogView);
+            dialog.show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
