@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - activity Main, RealTimeTelemetry, Settings
 - about dialog
+- docs
+- copyright
 
 ## 0.1 - 2017-03-12
 
