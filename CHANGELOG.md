@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - card-view rows templates with 2,4 items
 - temperature frame: add tyres, engines temps
 - cached data fragments with charts
+- cached data activity
 
 ### Fixed
 - about dialog layout

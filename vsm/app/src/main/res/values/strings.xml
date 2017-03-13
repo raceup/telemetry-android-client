@@ -59,8 +59,16 @@
 
     <!-- cached-data telemetry activity -->
     <!-- fragments -->
-    <!-- tyre speeds -->
     <string name="cached_data_telemetry_fragment_img_save">Save chart to file</string>
+
+    <!-- tyre speeds -->
+    <string name="cached_data_telemetry_fragment_tyres_speeds">Tyres speeds</string>
+
+    <!-- tyre temperatures -->
+    <string name="cached_data_telemetry_fragment_tyres_temperatures">Tyres temperatures</string>
+
+    <!-- accelerations -->
+    <string name="cached_data_telemetry_fragment_accelerations">Tyres accelerations</string>
 
     <!-- settings -->
     <!-- Example General settings -->

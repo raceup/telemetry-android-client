@@ -16,11 +16,32 @@
 
 package org.raceup.ed.telemetry.vsm.fragment;
 
-import android.app.Fragment;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import org.raceup.ed.telemetry.vsm.R;
 
 /**
  * Fragment with accelerations and yaw rate chart
  */
 
 public class CachedDataTelemetryAccelerationsFragment extends Fragment {
+    private View mFragmentView;
+
+    public CachedDataTelemetryAccelerationsFragment() {
+        // Required empty public constructor
+    }
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        mFragmentView = inflater.inflate(R.layout.fragment_cached_data_telemetry_accelerations, container, false);
+        return mFragmentView;
+    }
 }
