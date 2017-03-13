@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity
     private void openShareActivity() {
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_TEXT, "Hey! Have you checked out the Race UP Electric Division App? It's an Android app to show data about the Origin-e car!");
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "Hey! Have you checked out the Race UP Electric Division App? It shows telemetry data about the Origin-e car! Download it from here: https://github.com/raceup/telemetry-android-client/blob/master/vsm/app/build/outputs/apk/app-debug.apk?raw=true");
         sendIntent.setType("text/plain");
         startActivity(sendIntent);
     }

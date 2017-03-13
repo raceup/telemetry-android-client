@@ -14,6 +14,10 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - README with some sample images
+- share text
+
+### Fixed
+- app download link
 
 ## 0.1.3 - 2017-03-13
 
