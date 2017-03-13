@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package telemetry.ed.raceup.org.vsm.activity;
+package org.raceup.ed.telemetry.vsm.activity;
 
 import android.content.res.Configuration;
 import android.os.Bundle;

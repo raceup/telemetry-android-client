@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package telemetry.ed.raceup.org.vsm.activity;
+package org.raceup.ed.telemetry.vsm.activity;
 
 
 import android.annotation.TargetApi;
@@ -36,9 +36,9 @@ import android.support.v7.app.ActionBar;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
-import java.util.List;
+import org.raceup.ed.telemetry.vsm.R;
 
-import telemetry.ed.raceup.org.vsm.R;
+import java.util.List;
 
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On

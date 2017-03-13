@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package telemetry.ed.raceup.org.vsm.fragment;
+package org.raceup.ed.telemetry.vsm.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,7 +22,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import telemetry.ed.raceup.org.vsm.R;
+import org.raceup.ed.telemetry.vsm.R;
 
 /**
  * Fragment in RealTimeTelemetry activity to show info about tyres

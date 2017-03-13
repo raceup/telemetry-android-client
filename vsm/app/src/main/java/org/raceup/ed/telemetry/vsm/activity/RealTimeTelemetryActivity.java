@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package telemetry.ed.raceup.org.vsm.activity;
+package org.raceup.ed.telemetry.vsm.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,8 +25,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import telemetry.ed.raceup.org.vsm.R;
-import telemetry.ed.raceup.org.vsm.adapter.RealTimeTelemetryPagerAdapter;
+import org.raceup.ed.telemetry.vsm.R;
+import org.raceup.ed.telemetry.vsm.adapter.RealTimeTelemetryPagerAdapter;
 
 /**
  * Tabbed activity with real-time data

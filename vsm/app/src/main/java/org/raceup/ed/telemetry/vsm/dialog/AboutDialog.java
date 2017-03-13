@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package telemetry.ed.raceup.org.vsm.dialog;
+package org.raceup.ed.telemetry.vsm.dialog;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package telemetry.ed.raceup.org.vsm.adapter;
+package org.raceup.ed.telemetry.vsm.adapter;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import telemetry.ed.raceup.org.vsm.R;
-import telemetry.ed.raceup.org.vsm.fragment.RealTimeTelemetryTemperaturesFragment;
-import telemetry.ed.raceup.org.vsm.fragment.RealTimeTelemetryThrottleFragment;
-import telemetry.ed.raceup.org.vsm.fragment.RealTimeTelemetryTyresFragment;
+import org.raceup.ed.telemetry.vsm.R;
+import org.raceup.ed.telemetry.vsm.fragment.RealTimeTelemetryTemperaturesFragment;
+import org.raceup.ed.telemetry.vsm.fragment.RealTimeTelemetryThrottleFragment;
+import org.raceup.ed.telemetry.vsm.fragment.RealTimeTelemetryTyresFragment;
 
 /**
  * Pager for RealTimeTelemetry activity

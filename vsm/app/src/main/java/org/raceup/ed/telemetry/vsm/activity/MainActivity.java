@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package telemetry.ed.raceup.org.vsm.activity;
+package org.raceup.ed.telemetry.vsm.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -35,8 +35,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import telemetry.ed.raceup.org.vsm.R;
-import telemetry.ed.raceup.org.vsm.dialog.AboutDialog;
+import org.raceup.ed.telemetry.vsm.R;
+import org.raceup.ed.telemetry.vsm.dialog.AboutDialog;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

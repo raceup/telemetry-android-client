@@ -12,6 +12,10 @@ All notable changes to this project will be documented in this file.
 
 ### Refactored
 - openXActivity methods in MainActivity
+- app core package
+
+### Removed
+- tests packages
 
 ## 0.1.1 - 2017-03-12
 
