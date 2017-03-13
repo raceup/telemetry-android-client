@@ -19,6 +19,7 @@ package telemetry.ed.raceup.org.vsm.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -93,7 +94,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            openSettingsActivity();
         }
 
         return super.onOptionsItemSelected(item);
@@ -101,52 +102,74 @@ public class MainActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.nav_real_time) {
-            Intent openActivity = new Intent(MainActivity.this, RealTimeTelemetryActivity.class);
-            startActivity(openActivity);
+            openRealTimeTelemetryActivity();
         } else if (id == R.id.nav_cached) {
-            //
+            openCachedDataTelemetryActivity();
         } else if (id == R.id.nav_manage) {
-            Intent openActivity = new Intent(MainActivity.this, SettingsActivity.class);
-            startActivity(openActivity);
+            openSettingsActivity();
         } else if (id == R.id.nav_share) {
-            Intent sendIntent = new Intent();
-            sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent.putExtra(Intent.EXTRA_TEXT, "Hey! Have you checked out the Race UP Electric Division App? It's an Android app to show data about the Origin-e car!");
-            sendIntent.setType("text/plain");
-            startActivity(sendIntent);
+            openShareActivity();
         } else if (id == R.id.nav_about) {
-            LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View aboutDialogView = inflater.inflate(R.layout.about_dialog, null);
-            TextView infoText = (TextView) aboutDialogView.findViewById(R.id.info_text_about_dialog);
-            infoText.setText(
-                    Html.fromHtml(
-                            "<h3>" +
-                                    "VSM: Vehicle System Monitor" +
-                                    "</h3>\n" +
-                                    "<i>Telemetry client of Race UP Origin-e car</i><br>\n" +
-                                    "Version 0.1<br>\n" +
-                                    "Copyright (C) 2017<br>\n" +
-                                    "<b>Race UP Electric Division</b><br><br>\n" +
-                                    "info@raceup.it"
-                    )
-            );
-
-            // set legal text
-            TextView legalText = (TextView) aboutDialogView.findViewById(R.id.legal_text_about_dialog);
-            legalText.setText(Html.fromHtml(
-                    "Copyright (C) Race UP Electric Division 2017. <b>All rights reserved.</b>\n" +
-                            "Unauthorized copying of this file, via any medium is strictly prohibited."));
-            AboutDialog dialog = new AboutDialog(MainActivity.this, "", aboutDialogView);
-            dialog.show();
+            openAboutDialog();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void openRealTimeTelemetryActivity() {
+        Intent openActivity = new Intent(MainActivity.this, RealTimeTelemetryActivity.class);
+        startActivity(openActivity);
+    }
+
+    // TODO: create cached data activity
+    private void openCachedDataTelemetryActivity() {
+        Intent openActivity = new Intent(MainActivity.this, RealTimeTelemetryActivity.class);
+        startActivity(openActivity);
+    }
+
+    private void openSettingsActivity() {
+        Intent openActivity = new Intent(MainActivity.this, SettingsActivity.class);
+        startActivity(openActivity);
+    }
+
+    private void openShareActivity() {
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "Hey! Have you checked out the Race UP Electric Division App? It's an Android app to show data about the Origin-e car!");
+        sendIntent.setType("text/plain");
+        startActivity(sendIntent);
+    }
+
+    private void openAboutDialog() {
+        LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View aboutDialogView = inflater.inflate(R.layout.about_dialog, null);
+        TextView infoText = (TextView) aboutDialogView.findViewById(R.id.info_text_about_dialog);
+        infoText.setText(
+                Html.fromHtml(
+                        "<h3>" +
+                                "VSM: Vehicle System Monitor" +
+                                "</h3>\n" +
+                                "<i>Telemetry client of Race UP Origin-e car</i><br>\n" +
+                                "Version 0.1<br>\n" +
+                                "Copyright (C) 2017<br>\n" +
+                                "<b>Race UP Electric Division</b><br><br>\n" +
+                                "info@raceup.it"
+                )
+        );
+
+        // set legal text
+        TextView legalText = (TextView) aboutDialogView.findViewById(R.id.legal_text_about_dialog);
+        legalText.setText(Html.fromHtml(
+                "Copyright (C) Race UP Electric Division 2017. <b>All rights reserved.</b>\n" +
+                        "Unauthorized copying of this file, via any medium is strictly prohibited."));
+        AboutDialog dialog = new AboutDialog(MainActivity.this, "", aboutDialogView);
+        dialog.show();
     }
 }

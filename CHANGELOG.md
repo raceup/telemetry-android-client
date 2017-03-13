@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - Origin-e name
+- SettingsActivity back button
+
+### Refactored
+- openXActivity methods in MainActivity
 
 ## 0.1.1 - 2017-03-12
 
