@@ -119,8 +119,19 @@
     <string name="pref_title_vibrate">Vibrate</string>
 
     <!-- general -->
-    <string name="throttle">Throttle</string>
+    <string name="throttle_brake">Throttle/brake</string>
     <string name="brakes">Front/rear brakes pressure (bar)</string>
     <string name="front_brake">Front brake</string>
     <string name="rear_brake">Rear brake</string>
+    <string name="steering_wheel_angle">Steering wheel angle</string>
+    <string name="fl_tyre">Front left</string>
+    <string name="fr_tyre">Front right</string>
+    <string name="rl_tyre">Rear left</string>
+    <string name="rr_tyre">Rear right</string>
+    <string name="tyre_labels">Tyre values</string>
+    <string name="tyre_suspension_label">Suspension (mm)</string>
+    <string name="tyre_speed_label">Speed (m/s)</string>
+    <string name="tyre_water_block_label">Water block (°C)</string>
+    <string name="tyre_ti_label">TI (°C)</string>
+    <string name="tyre_temperature_label">Temperature (°C)</string>
 </resources>

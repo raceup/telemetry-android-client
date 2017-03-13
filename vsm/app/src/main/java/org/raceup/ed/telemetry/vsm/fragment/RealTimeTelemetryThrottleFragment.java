@@ -46,3 +46,16 @@ public class RealTimeTelemetryThrottleFragment extends Fragment {
         return mFragmentView;
     }
 }
+
+// TODO snippets
+// rotate image
+/*
+import android.graphics.Matrix;
+import android.widget.ImageView;
+Code: (Assuming imageView, angle, pivotX & pivotY are already defined)
+
+Matrix matrix = new Matrix();
+imageView.setScaleType(ImageView.ScaleType.MATRIX);   //required
+matrix.postRotate((float) angle, pivotX, pivotY);
+imageView.setImageMatrix(matrix);
+ */

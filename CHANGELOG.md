@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - throttle/brake progress bar
 - front/rear brakes labels
+- tyre labels and values
+- origin-e car img from above
 
 ## 0.1.2 - 2017-03-13
 
