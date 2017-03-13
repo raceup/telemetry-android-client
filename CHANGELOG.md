@@ -1,13 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## TODOs:
-- temperature frame: add tyres, engines temps
-
 ## 0.1.4 - 2017-03-13
 
 ### Added
 - cardview rows templates with 2,4 items
+- temperature frame: add tyres, engines temps
 
 ## 0.1.4 - 2017-03-13
 

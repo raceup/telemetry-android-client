@@ -16,6 +16,8 @@
 
 package org.raceup.ed.telemetry.vsm.core.models.data;
 
+import android.util.Log;
+
 import com.sirfoga.hal.streams.telemetry.data.Data;
 
 import org.json.JSONException;
@@ -27,6 +29,7 @@ import org.raceup.ed.telemetry.vsm.core.models.CarLocation;
  * Car data coming from telemetry
  */
 public class CarTelemetryData extends Data {
+    private static final String TAG = "CarTelemetryData";
     private CarLocation carLocation;  // location of data coming from car
     private CarDataType typeData;  // data type
     private int timeMs;  // time of logging (ms)
@@ -41,7 +44,7 @@ public class CarTelemetryData extends Data {
         try {
             parseRawString();  // parse raw data
         } catch (Exception e) {
-            System.out.println("CarTelemetryData: " + e.toString());
+            Log.e(TAG, "CarTelemetryData: " + e.toString());
         }
     }
 
