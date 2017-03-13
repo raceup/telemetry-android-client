@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.3 - 2017-03-13
+
+### Added
+- throttle/brake progress bar
+- front/rear brakes labels
+
 ## 0.1.2 - 2017-03-13
 
 ### Added

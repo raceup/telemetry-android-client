@@ -117,4 +117,10 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- general -->
+    <string name="throttle">Throttle</string>
+    <string name="brakes">Front/rear brakes pressure (bar)</string>
+    <string name="front_brake">Front brake</string>
+    <string name="rear_brake">Rear brake</string>
 </resources>

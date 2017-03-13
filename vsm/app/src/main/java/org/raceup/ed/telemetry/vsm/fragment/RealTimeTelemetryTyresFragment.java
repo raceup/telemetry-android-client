@@ -46,3 +46,14 @@ public class RealTimeTelemetryTyresFragment extends Fragment {
         return mFragmentView;
     }
 }
+
+// TODO snippets
+// image of car from above with click on tyres to show dialogs with info
+/*
+ImageView img = (ImageView) findViewById(R.id.myImageId);
+img.setOnClickListener(new OnClickListener() {
+    public void onClick(View v) {
+       // your code here
+    }
+});
+ */
