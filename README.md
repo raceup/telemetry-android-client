@@ -9,20 +9,19 @@
 
 ## Information provided
 The home page shows important info about connection in use and the car status.
-<img src="https://github.com/raceup/telemetry-android-client/blob/master/screenshots/home.png" width="30%" height="30%" align="right"</img>
+<img src="https://github.com/raceup/telemetry-android-client/blob/master/screenshots/home.png" width="30%" height="30%"</img>
 
-The home page menu redirects the user to various sub-activities ...
-<img src="https://github.com/raceup/telemetry-android-client/blob/master/screenshots/menu.png" width="30%" height="30%" align="right"</img>
-
-for example the [RealTimeActivity](vsm/app/src/main/java/org/raceup/ed/telemetry/vsm/activity/RealTimeTelemetryActivity.java) present the user with 3 tabs:
+The home page menu redirects the user to various sub-activities ... for example the [RealTimeActivity](vsm/app/src/main/java/org/raceup/ed/telemetry/vsm/activity/RealTimeTelemetryActivity.java) present the user with 3 tabs:
 - the first tab to get current status of the tyres
-<img src="https://github.com/raceup/telemetry-android-client/blob/master/screenshots/tyres.png" width="30%" height="30%" align="right"</img>
-
 - the second one to get info about the pilot's input (i.e throttle, brakes ...)
-<img src="https://github.com/raceup/telemetry-android-client/blob/master/screenshots/throttle.png" width="30%" height="30%" align="right"</img>
+- the last one to get info about car tyres and engines temperatures
+
+<img src="https://github.com/raceup/telemetry-android-client/blob/master/screenshots/menu.png" width="30%" height="30%"</img>
+<img src="https://github.com/raceup/telemetry-android-client/blob/master/screenshots/tyres.png" width="30%" height="30%"</img>
+<img src="https://github.com/raceup/telemetry-android-client/blob/master/screenshots/throttle.png" width="30%" height="30%"</img>
 
 ## Where can I try it
-As for now, there is no `Race UP` GooglePlay developer, neither an app provided in the `Play Store`, however you can [download](vsm/app/build/outputs/apk/app-debug.apk) it from here!
+As for now, there is no `Race UP` GooglePlay developer, neither an app provided in the `Play Store`, however you can [download](https://github.com/raceup/telemetry-android-client/blob/master/vsm/app/build/outputs/apk/app-debug.apk?raw=truek) it from here!
 
 ## License
 [Apache License](http://www.apache.org/licenses/LICENSE-2.0) Version 2.0, January 2004
