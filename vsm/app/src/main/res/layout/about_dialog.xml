@@ -24,7 +24,7 @@
         <ImageView
             android:layout_width="@dimen/activity_horizontal_margin"
             android:layout_height="@dimen/nav_header_height"
-            android:layout_gravity="left"
+            android:layout_gravity="start"
             android:src="@mipmap/ic_launcher" />
 
         <TextView
@@ -46,7 +46,7 @@
             android:layout_span="2"
             android:linksClickable="true"
             android:textColor="@color/raceupBrochureCubeGrey"
-            android:textSize="10dip"
+            android:textSize="12sp"
             android:textStyle="italic" />
     </TableRow>
 </TableLayout>

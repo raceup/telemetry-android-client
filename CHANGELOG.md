@@ -1,11 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## 0.1.4 - 2017-03-13
+## 0.1.5 - 2017-03-13
 
 ### Added
-- cardview rows templates with 2,4 items
+- card-view rows templates with 2,4 items
 - temperature frame: add tyres, engines temps
+- cached data fragments with charts
+
+### Fixed
+- about dialog layout
 
 ## 0.1.4 - 2017-03-13
 

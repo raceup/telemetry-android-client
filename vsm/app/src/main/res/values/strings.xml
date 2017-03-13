@@ -57,6 +57,11 @@
     <string name="real_time_telemetry_fragment_temperatures_tyres_title">Tyres (°C)</string>
     <string name="title_activity_settings">Settings</string>
 
+    <!-- cached-data telemetry activity -->
+    <!-- fragments -->
+    <!-- tyre speeds -->
+    <string name="cached_data_telemetry_fragment_img_save">Save chart to file</string>
+
     <!-- settings -->
     <!-- Example General settings -->
     <string name="pref_header_general">General</string>
