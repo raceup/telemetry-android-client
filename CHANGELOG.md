@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.2 - 2017-03-13
+
+### Added
+- share activity
+
+### Fixed
+- Origin-e name
+
 ## 0.1.1 - 2017-03-12
 
 ### Added
@@ -8,9 +16,6 @@ All notable changes to this project will be documented in this file.
 - about dialog
 - docs
 - copyright
-
-### Fixed
-- Origin-e name
 
 ## 0.1 - 2017-03-12
 

@@ -114,7 +114,11 @@ public class MainActivity extends AppCompatActivity
             Intent openActivity = new Intent(MainActivity.this, SettingsActivity.class);
             startActivity(openActivity);
         } else if (id == R.id.nav_share) {
-            //
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "Hey! Have you checked out the Race UP Electric Division App? It's an Android app to show data about the Origin-e car!");
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
         } else if (id == R.id.nav_about) {
             LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View aboutDialogView = inflater.inflate(R.layout.about_dialog, null);
