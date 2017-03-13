@@ -128,6 +128,7 @@
     <string name="pref_title_vibrate">Vibrate</string>
 
     <!-- general -->
+    <string name="dnf">DNF</string>
     <string name="throttle_brake">Throttle/brake</string>
     <string name="brakes">Front/rear brakes pressure (bar)</string>
     <string name="front_brake">Front brake</string>

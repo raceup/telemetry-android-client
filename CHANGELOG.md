@@ -19,6 +19,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - app download link
 
+### Removed
+- sample values and put `dnf` value
+
 ## 0.1.3 - 2017-03-13
 
 ### Added

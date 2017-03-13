@@ -77,7 +77,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -96,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -113,7 +113,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -132,7 +132,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -149,7 +149,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -168,7 +168,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -185,7 +185,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -204,7 +204,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -221,7 +221,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -240,7 +240,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -306,7 +306,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -325,7 +325,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -342,7 +342,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -361,7 +361,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -378,7 +378,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -397,7 +397,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -414,7 +414,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -433,7 +433,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
@@ -450,7 +450,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -469,7 +469,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:text="0.0"
+                    android:text="@string/dnf"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>

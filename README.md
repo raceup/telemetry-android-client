@@ -23,7 +23,7 @@ The home page menu redirects the user to various sub-activities ... for example 
 ![throttle](screenshots/throttle.png)
 
 ## Where can I try it
-As for now, there is no `Race UP` GooglePlay developer, neither an app provided in the `Play Store`, however you can [download](https://github.com/raceup/telemetry-android-client/blob/master/vsm/app/build/outputs/apk/app-debug.apk?raw=truek) it from here!
+As for now, there is no `Race UP` GooglePlay developer, neither an app provided in the `Play Store`, however you can [download](https://github.com/raceup/telemetry-android-client/blob/master/vsm/app/build/outputs/apk/app-debug.apk?raw=true) it from here!
 
 ## License
 [Apache License](http://www.apache.org/licenses/LICENSE-2.0) Version 2.0, January 2004
