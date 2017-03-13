@@ -16,6 +16,8 @@
 
 <resources>
     <string name="app_name">VSM - Race UP Electric Division</string>
+    <string name="app_name_short">VSM</string>
+    <string name="app_developer">Race UP Electric Division</string>
 
     <!-- drawer menu -->
     <string name="drawer_menu_real_time_data">Real-time data</string>
@@ -64,15 +66,20 @@
 
     <!-- fragments -->
     <string name="cached_data_telemetry_fragment_img_save">Save chart to file</string>
+    <string name="export_graph_export_true">Screenshot saved to gallery</string>
+    <string name="export_graph_export_false">Error saving screenshot to gallery</string>
 
     <!-- tyre speeds -->
     <string name="cached_data_telemetry_fragment_tyres_speeds">Tyres speeds</string>
+    <string name="cached_data_telemetry_fragment_tyres_speeds_chart_title">Tyres speeds (m/s) chart</string>
 
     <!-- tyre temperatures -->
     <string name="cached_data_telemetry_fragment_tyres_temperatures">Tyres temperatures</string>
+    <string name="cached_data_telemetry_fragment_tyres_temperatures_chart_title">Tyres temperatures (°C) chart</string>
 
     <!-- accelerations -->
     <string name="cached_data_telemetry_fragment_accelerations">Accelerations</string>
+    <string name="cached_data_telemetry_fragment_accelerations_chart_title">Car accelerations X, Y (m/s²) and yaw rate (°/s) chart</string>
 
     <!-- settings -->
     <!-- Example General settings -->

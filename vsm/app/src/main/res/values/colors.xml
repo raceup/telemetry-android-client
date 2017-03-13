@@ -32,4 +32,13 @@
     <color name="raceupCarEdLight">#112399</color>
     <color name="raceupCarCd">#fb2323</color>
     <color name="raceupCarCdLight">#bb2323</color>
+
+    <!-- unipd -->
+    <color name="unipd">#9b0014</color>
+    <color name="unipdDark">#790011</color>
+
+    <!-- misc -->
+    <color name="grey_0">#c7c7c7</color>
+    <color name="grey_3">#6D6D6D</color>
+    <color name="grey_4">#615f5f</color>
 </resources>

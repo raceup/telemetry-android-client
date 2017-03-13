@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 ## 0.1.5 - 2017-03-13
 
+### Removed
+- button to export charts
+
+## Fixed
+- cached data fragments activity misplacement
+
+## Added
+- title in cached data fragment
+
+## 0.1.5 - 2017-03-13
+
 ### Added
 - card-view rows templates with 2,4 items
 - temperature frame: add tyres, engines temps

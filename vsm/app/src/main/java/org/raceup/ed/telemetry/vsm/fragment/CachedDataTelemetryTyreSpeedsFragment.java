@@ -16,11 +16,17 @@
 
 package org.raceup.ed.telemetry.vsm.fragment;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.Legend;
+import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.components.YAxis;
 
 import org.raceup.ed.telemetry.vsm.R;
 
@@ -30,6 +36,7 @@ import org.raceup.ed.telemetry.vsm.R;
 
 public class CachedDataTelemetryTyreSpeedsFragment extends Fragment {
     private View mFragmentView;
+    private LineChart chart;
 
     public CachedDataTelemetryTyreSpeedsFragment() {
         // Required empty public constructor
@@ -42,6 +49,31 @@ public class CachedDataTelemetryTyreSpeedsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mFragmentView = inflater.inflate(R.layout.fragment_cached_data_telemetry_tyre_speeds, container, false);
+
+        chart = (LineChart) mFragmentView.findViewById(R.id.chart);  // get ui references
+        setupChart();
+
         return mFragmentView;
+    }
+
+    private void setupChart() {
+        Legend legend = chart.getLegend();
+        XAxis xAxis = chart.getXAxis();
+        xAxis.setDrawGridLines(false);
+        xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
+        xAxis.setTextColor(getResources().getColor(R.color.grey_3));
+        xAxis.setAvoidFirstLastClipping(true);
+        YAxis leftAxis = chart.getAxisLeft();
+        leftAxis.removeAllLimitLines();
+        leftAxis.setTextColor(getResources().getColor(R.color.grey_3));
+        leftAxis.setStartAtZero(false);
+        leftAxis.disableGridDashedLine();
+        leftAxis.setDrawGridLines(false);
+        leftAxis.setDrawLimitLinesBehindData(true);
+        chart.getAxisRight().setEnabled(false);
+        chart.setBackgroundColor(Color.parseColor("#FFFFFF"));  // white
+        // TODO chart.setDescription("");
+        chart.setGridBackgroundColor(Color.parseColor("#FFFFFF"));  // white
+        legend.setEnabled(false);
     }
 }
