@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.4 - 2017-03-13
+
+### Added
+- content main: table with important info
+
 ## 0.1.3 - 2017-03-13
 
 ### Added
@@ -22,7 +27,7 @@ All notable changes to this project will be documented in this file.
 - SettingsActivity back button
 
 ### Refactored
-- openXActivity methods in MainActivity
+- openXXXActivity methods in MainActivity
 - app core package
 
 ### Removed

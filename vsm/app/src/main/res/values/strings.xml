@@ -30,6 +30,11 @@
 
     <!-- main activity -->
     <string name="main_content">Add a telemetry input source with the \'+\' button.</string>
+    <string name="main_status_connection">Connection status</string>
+    <string name="main_telemetry_source">Telemetry source</string>
+    <string name="main_packet_lost">Packet loss</string>
+    <string name="main_car_status">Car status</string>
+    <string name="main_car_errors">Car errors</string>
 
     <!-- fab menu telemetry choice -->
     <string name="telemetry_choice_wifi">Wi-Fi</string>
