@@ -63,7 +63,7 @@ public class CachedDataTelemetryPagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return context.getString(R.string.cached_data_telemetry_fragment_tyres_temperatures);
             case 2:
-                return context.getString(R.string.cached_data_telemetry_fragment_tyres_accelerations);
+                return context.getString(R.string.cached_data_telemetry_fragment_accelerations);
         }
         return null;
     }

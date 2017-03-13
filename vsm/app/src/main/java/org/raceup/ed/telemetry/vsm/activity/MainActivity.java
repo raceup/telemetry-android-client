@@ -122,9 +122,8 @@ public class MainActivity extends AppCompatActivity
         startActivity(openActivity);
     }
 
-    // TODO: create cached data activity
     private void openCachedDataTelemetryActivity() {
-        Intent openActivity = new Intent(MainActivity.this, RealTimeTelemetryActivity.class);
+        Intent openActivity = new Intent(MainActivity.this, CachedDataTelemetryActivity.class);
         startActivity(openActivity);
     }
 

@@ -39,6 +39,8 @@
     <string name="telemetry_choice_log_file">.csv log file</string>
 
     <!-- real-time telemetry activity -->
+    <string name="real_time_activity_title">Real-time data</string>
+
     <!-- fragments -->
     <!-- tyres -->
     <string name="real_time_telemetry_fragment_tyres">Tyres info</string>
@@ -58,6 +60,8 @@
     <string name="title_activity_settings">Settings</string>
 
     <!-- cached-data telemetry activity -->
+    <string name="cached_data_activity_title">Cached data</string>
+
     <!-- fragments -->
     <string name="cached_data_telemetry_fragment_img_save">Save chart to file</string>
 
@@ -68,7 +72,7 @@
     <string name="cached_data_telemetry_fragment_tyres_temperatures">Tyres temperatures</string>
 
     <!-- accelerations -->
-    <string name="cached_data_telemetry_fragment_accelerations">Tyres accelerations</string>
+    <string name="cached_data_telemetry_fragment_accelerations">Accelerations</string>
 
     <!-- settings -->
     <!-- Example General settings -->
