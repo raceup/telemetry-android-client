@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity
                             "<h3>" +
                                     "VSM: Vehicle System Monitor" +
                                     "</h3>\n" +
-                                    "<i>Telemetry client of Race UP Origin-E car</i><br>\n" +
+                                    "<i>Telemetry client of Race UP Origin-e car</i><br>\n" +
                                     "Version 0.1<br>\n" +
                                     "Copyright (C) 2017<br>\n" +
                                     "<b>Race UP Electric Division</b><br><br>\n" +

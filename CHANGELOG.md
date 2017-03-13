@@ -9,6 +9,9 @@ All notable changes to this project will be documented in this file.
 - docs
 - copyright
 
+### Fixed
+- Origin-e name
+
 ## 0.1 - 2017-03-12
 
 ### Created
