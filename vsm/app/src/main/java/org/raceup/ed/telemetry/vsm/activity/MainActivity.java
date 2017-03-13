@@ -20,7 +20,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
@@ -34,6 +33,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+
+import com.github.clans.fab.FloatingActionButton;
 
 import org.raceup.ed.telemetry.vsm.R;
 import org.raceup.ed.telemetry.vsm.dialog.AboutDialog;
@@ -49,14 +50,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        setupFabActions();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -171,5 +165,25 @@ public class MainActivity extends AppCompatActivity
                         "Unauthorized copying of this file, via any medium is strictly prohibited."));
         AboutDialog dialog = new AboutDialog(MainActivity.this, "", aboutDialogView);
         dialog.show();
+    }
+
+    private void setupFabActions() {
+        FloatingActionButton fabMenuWifi = (FloatingActionButton) findViewById(R.id.fab_menu_wifi);
+        fabMenuWifi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Create telemetry choice Wi-Fi action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
+
+        FloatingActionButton fabMenuLogFile = (FloatingActionButton) findViewById(R.id.fab_menu_log_file);
+        fabMenuLogFile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Create telemetry choice .csv log file action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
     }
 }

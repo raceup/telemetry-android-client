@@ -31,6 +31,10 @@
     <!-- main activity -->
     <string name="main_content">Add a telemetry input source with the \'+\' button.</string>
 
+    <!-- fab menu telemetry choice -->
+    <string name="telemetry_choice_wifi">Wi-Fi</string>
+    <string name="telemetry_choice_log_file">.csv log file</string>
+
     <!-- realtime telemetry activity -->
     <!-- fragments -->
     <!-- tyres -->
