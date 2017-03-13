@@ -1,10 +1,18 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## TODOs:
+- temperature frame: add tyres, engines temps
+
 ## 0.1.4 - 2017-03-13
 
 ### Added
 - content main: table with important info
+- screenshots
+- sample .apk
+
+### Changed
+- README with some sample images
 
 ## 0.1.3 - 2017-03-13
 
