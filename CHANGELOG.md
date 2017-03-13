@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - content main: table with important info
 - screenshots
 - sample .apk
+- bash scripts to mirror repo to `Github` and to fix screenshots size 
 
 ### Changed
 - README with some sample images
