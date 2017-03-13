@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - share activity
 - core.models classes
+- com.sirfoga.hal lib
 
 ### Fixed
 - Origin-e name
