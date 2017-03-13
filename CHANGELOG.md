@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file.
 ## 0.1.4 - 2017-03-13
 
 ### Added
+- cardview rows templates with 2,4 items
+
+## 0.1.4 - 2017-03-13
+
+### Added
 - content main: table with important info
 - screenshots
 - sample .apk
