@@ -13,7 +13,6 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.raceup.ed.telemetry.vsm">
 
@@ -35,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.raceup.ed.telemetry.vsm.activity.RealTimeTelemetryActivity"
+            android:name=".activity.RealTimeTelemetryActivity"
             android:label="@string/real_time_activity_title"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -43,7 +42,7 @@
                 android:value="org.raceup.ed.telemetry.vsm.activity.MainActivity" />
         </activity>
         <activity
-            android:name="org.raceup.ed.telemetry.vsm.activity.CachedDataTelemetryActivity"
+            android:name=".activity.CachedDataTelemetryActivity"
             android:label="@string/cached_data_activity_title"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -53,6 +52,15 @@
         <activity
             android:name=".activity.SettingsActivity"
             android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".activity.AlertsActivity"
+            android:label="@string/title_activity_alerts"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.raceup.ed.telemetry.vsm.activity.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

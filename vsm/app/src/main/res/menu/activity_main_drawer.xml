@@ -27,6 +27,11 @@
                 android:id="@+id/nav_cached"
                 android:icon="@drawable/ic_tab_black_24dp"
                 android:title="@string/drawer_menu_cached_data" />
+
+            <item
+                android:id="@+id/nav_alerts"
+                android:icon="@drawable/ic_warning_black_24dp"
+                android:title="@string/drawer_menu_alerts" />
         </menu>
     </item>
 

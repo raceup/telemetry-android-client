@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.6 - 2017-07-10
+
+### Added
+- `alerts` activity and main menu entry
+
 ## 0.1.5 - 2017-03-13
 
 ### Removed

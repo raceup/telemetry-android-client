@@ -104,6 +104,8 @@ public class MainActivity extends AppCompatActivity
             openRealTimeTelemetryActivity();
         } else if (id == R.id.nav_cached) {
             openCachedDataTelemetryActivity();
+        } else if (id == R.id.nav_alerts) {
+            openAlertsActivity();
         } else if (id == R.id.nav_manage) {
             openSettingsActivity();
         } else if (id == R.id.nav_share) {
@@ -124,6 +126,11 @@ public class MainActivity extends AppCompatActivity
 
     private void openCachedDataTelemetryActivity() {
         Intent openActivity = new Intent(MainActivity.this, CachedDataTelemetryActivity.class);
+        startActivity(openActivity);
+    }
+
+    private void openAlertsActivity() {
+        Intent openActivity = new Intent(MainActivity.this, AlertsActivity.class);
         startActivity(openActivity);
     }
 
