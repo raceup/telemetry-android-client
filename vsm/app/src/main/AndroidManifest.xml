@@ -61,6 +61,19 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.raceup.ed.telemetry.vsm.activity.MainActivity" />
         </activity>
+        <activity
+            android:name=".activity.RaceStandingsActivity"
+            android:label="@string/title_activity_race_standings"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.raceup.ed.telemetry.vsm.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.RaceConditionsActivity"
+            android:label="@string/title_activity_race_conditions"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

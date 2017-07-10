@@ -16,7 +16,19 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Telemetry">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_race_standings"
+            android:icon="@drawable/ic_assistant_photo_black_24dp"
+            android:title="@string/drawer_race_standings" />
+
+        <item
+            android:id="@+id/nav_race_conditions"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="@string/drawer_race_conditions" />
+    </group>
+
+    <item android:title="@string/telemetry_title">
         <menu>
             <item
                 android:id="@+id/nav_real_time"
@@ -36,6 +48,11 @@
     </item>
 
     <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_webpage"
+            android:icon="@drawable/ic_web_black_24dp"
+            android:title="@string/action_webpage" />
+
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"

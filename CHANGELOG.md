@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - `alerts` activity and main menu entry
+- `race` activities and main menu entries
+- `redirect to page` main menu entry
 
 ## 0.1.5 - 2017-03-13
 
