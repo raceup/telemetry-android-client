@@ -49,26 +49,28 @@
         </menu>
     </item>
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_webpage"
-            android:icon="@drawable/ic_web_black_24dp"
-            android:title="@string/action_webpage" />
+    <item android:title="@string/extra_title">
+        <menu>
+            <item
+                android:id="@+id/nav_webpage"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="@string/action_webpage" />
 
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/action_settings" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/action_settings" />
 
-        <item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/ic_menu_share"
-            android:title="@string/action_share" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/action_share" />
 
-        <item
-            android:id="@+id/nav_about"
-            android:icon="@drawable/ic_info_black_24dp"
-            android:title="@string/drawer_menu_about" />
-    </group>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/drawer_menu_about" />
+        </menu>
+    </item>
 
 </menu>
