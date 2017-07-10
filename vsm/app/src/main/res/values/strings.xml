@@ -20,9 +20,10 @@
     <string name="app_developer">Race UP Electric Division</string>
 
     <!-- drawer menu -->
-    <string name="telemetry_title">Telemetry</string>
+    <string name="races_title">Races</string>
     <string name="drawer_race_standings">Race standings</string>
     <string name="drawer_race_conditions">Race track conditions</string>
+    <string name="telemetry_title">Telemetry</string>
     <string name="drawer_menu_real_time_data">Real-time data</string>
     <string name="drawer_menu_cached_data">Cached data</string>
     <string name="drawer_menu_alerts">Alerts</string>
