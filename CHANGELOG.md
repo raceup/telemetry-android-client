@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+### TODO
+- change ic_launcher image to new logo
+
+## 0.1.7 - 2017-07-15
+
+### Added
+- sample track conditions
+- sample race standings
+
 ## 0.1.6 - 2017-07-10
 
 ### Added
