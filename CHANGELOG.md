@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - sample track conditions
 - sample race standings
 - sample `car alerts` activity
+- fab button to send email in main activity
 
 ## 0.1.6 - 2017-07-10
 
