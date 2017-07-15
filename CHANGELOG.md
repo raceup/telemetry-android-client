@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - sample track conditions
 - sample race standings
+- sample `car alerts` activity
 
 ## 0.1.6 - 2017-07-10
 

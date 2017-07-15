@@ -165,8 +165,8 @@
     <string name="tyre_water_block_label">Water block (°C)</string>
     <string name="tyre_ti_label">TI (°C)</string>
     <string name="tyre_temperature_label">Temperature (°C)</string>
-    <string name="title_activity_alerts">AlertsActivity</string>
-    <string name="title_activity_race_standings">RaceStandingsActivity</string>
+    <string name="title_activity_alerts">Alerts</string>
+    <string name="title_activity_race_standings">Race standings</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
