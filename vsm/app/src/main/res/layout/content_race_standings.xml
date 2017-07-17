@@ -48,7 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="1st place - Team name"
+                    android:text="1st place - Race UP Electric Division"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -74,7 +74,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="+0.0s"
+                            android:text="-"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -95,7 +95,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="0m 0s .000"
+                            android:text="8m 2s .117"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -123,7 +123,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="2nd place - Team name"
+                    android:text="2nd place - FSAE Team Electric Division"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -149,7 +149,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="+0.0s"
+                            android:text="+1s .998"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -170,7 +170,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="0m 0s .000"
+                            android:text="8m 4s .115"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -224,7 +224,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="+0.0s"
+                            android:text="+8s .418"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -245,7 +245,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="0m 0s .000"
+                            android:text="8m 10s .535"
                             android:textAlignment="center" />
 
                     </LinearLayout>

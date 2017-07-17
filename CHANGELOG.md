@@ -12,6 +12,9 @@ All notable changes to this project will be documented in this file.
 - sample `car alerts` activity
 - fab button to send email in main activity
 
+### Fixed
+- sample race standings
+
 ## 0.1.6 - 2017-07-10
 
 ### Added
